@@ -1,0 +1,52 @@
+
+.recipe-title {
+  font-family: 'Arial', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #1a0312;
+  margin-bottom: 20px;
+}
+
+#recipe-header {
+  background-color: #e660ce;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.recipe-container {
+  border: 2px solid #b833a0;
+  padding: 20px;
+  margin: 20px auto; 
+  max-width: 600px;
+  background-color: #f3ecf2;
+}
+
+.ingredient-list, .recipe-steps {
+  font-family: 'Georgia', serif;
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.recipe-container .ingredient-list ul li {
+  margin-bottom: 8px;
+}
+
+.recipe-footer {
+  background-color: #e660ce;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.submission-button a:hover,
+.source-button a:hover {
+  background-color: #3e0f2c; 
+  color: white; 
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
